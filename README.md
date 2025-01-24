@@ -1,0 +1,3 @@
+# Scala Type Mismatch in Generic Method with Pattern Matching
+
+This example demonstrates a type mismatch error in a Scala generic method that uses pattern matching. The `myMethod` in `MyClass` works correctly when both inputs are of the same type (String or Int). However, it fails to compile when the types are mixed (e.g., Int and String). The pattern matching expects T to be String in one case and Int in the other, which is not possible if T is a generic type.
